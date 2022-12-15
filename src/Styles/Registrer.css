@@ -1,0 +1,54 @@
+.body{
+  background-color: #fff;
+}
+
+.register {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .register__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+  }
+
+.register__container label{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+  .register__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: #eee;
+  }
+  .register__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .register__btn:hover{
+    cursor: pointer;
+  }
+  .register__google {
+    background-color: #4285f4;
+  }
+  .register__google:hover{
+    cursor: pointer;
+  }
+  .register div {
+    margin-top: 7px;
+  }
