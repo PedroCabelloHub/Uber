@@ -154,3 +154,49 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+.cuadro-flotante{
+  background-color: white;
+  margin-top: 30px;
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.cuadro-flotante .opciones{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cuadro-flotante .opciones button{
+  border: none;
+  background-color: white;
+  margin:10px;
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cuadro-flotante .opciones .active{
+  border-bottom: 5px solid black;
+}
+
+.cuadro-flotante .info h2{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cuadro-flotante .info p{
+  margin-left: 25px;
+}
+
+.cuadro-flotante .info button{
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
